@@ -72,7 +72,7 @@ h6 {
   color: var(--LightText);
   font-size: 24px;
 }
-@media (max-width:375px){
+@media (max-width:400px){
  .navbar-brand{
   font-size: 14px;
 }
@@ -168,7 +168,7 @@ section,
     font-size: 25px;
   }
 }
-@media (max-width:375px){
+@media (max-width:400px){
   .section-title p{
     font-size: 20px;
   }
@@ -297,7 +297,7 @@ padding: 50px 0 60px 0;
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 400px){
   .HeroContent h3:nth-child(1){
     font-size: 25px;
   }
@@ -354,7 +354,7 @@ padding: 50px 0 60px 0;
 #AboutSection p {
   font-size: 30px;
 }
-@media (max-width:375px){
+@media (max-width:400px){
   #AboutSection .img-fluid {
     height: 300px;
   }
@@ -428,7 +428,7 @@ padding: 50px 0 60px 0;
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 400px){
   #services .ServiceDesc{
     display: none;
   }
@@ -557,7 +557,7 @@ padding: 50px 0 60px 0;
   padding-bottom: 0;
 }
 
-@media (max-width:375px){
+@media (max-width:400px){
   .resume .resume-item {
     padding: 0 0 15px 20px;
     margin-top: -2px;
