@@ -69,7 +69,8 @@ h6 {
   color: var(--LightText);
 }
 .navbar-brand{
-  color: var(--LightText);
+  xcolor: var(--LightText);
+  color: red;
   font-size: 24px;
 }
 @media (max-width:400px){
