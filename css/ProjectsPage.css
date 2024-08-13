@@ -25,6 +25,9 @@ p{
 .SideText h3{
 	font-size: 25px;
 }
+.SideText p, a{
+	font-size: 20px;
+}
 .ProjectImage{
 	border: 1px solid black;
 	margin-bottom: 30px;
@@ -46,11 +49,45 @@ p{
 	.SideText h3{
 		font-size: 26px;
 	}
+	.SideText p, a{
+		font-size: 18px;
+	}
 	.ProjectImage{
 		width: 480px;
 		height: 480px;
 	}
 }
+
+@media (max-width: 400px){
+	.MediaSection video{
+		max-width: 400px;
+		min-width: 400px;
+		max-height: 350px;
+		min-height: 350px;
+	}
+	.VideoSideText{
+		justify-content: center;
+		margin: auto;
+		text-align: center;
+	}
+	.SideText{
+		text-align: left;
+		width: 80%;
+		margin-left: 30px;
+	}
+	.SideText h3{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.SideText p, a{
+		font-size: 16px;
+	}
+	.ProjectImage{
+		width: 320px;
+		height: 320px;
+	}
+}
+
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
@@ -66,7 +103,8 @@ p{
 	font-weight: 700;
 	padding: 11px 23px;
 	margin: 0;
-	background: #0e1d34;
+	xbackground: var(--DarkHoverBg);
+	background: #030827;
 	color: white;
 	display: inline-block;
 	text-transform: uppercase;
@@ -75,7 +113,7 @@ p{
 }
 
 .section-title p {
-	color: var(--heading-color);
+	color: var(--LightText);
 	margin: 10px 0 0 0;
 	font-size: 32px;
 	font-weight: 500;
@@ -86,6 +124,8 @@ p{
 		font-size: 25px;
 	}
 }
-.section-title p .description-title {
-	color: var(--accent-color);
+@media (max-width:400px){
+	.section-title p{
+		font-size: 20px;
+	}
 }

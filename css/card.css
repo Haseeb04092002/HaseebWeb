@@ -146,3 +146,15 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 400px){
+  .ag-courses_item img{
+    width: 300px;
+    height: 250px;
+  }
+  .ag-courses-item_title {
+    min-height: 60px;
+    line-height: 1;
+    font-size: 30px;
+  }
+}
