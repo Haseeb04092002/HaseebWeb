@@ -679,7 +679,7 @@ circle {
 }
 
 .React-show-progress circle {
-  stroke-dashoffset: 160; /* 70% */
+  stroke-dashoffset: 200; /* 60% */
 }
 
 /*--------------------------------------------------------------

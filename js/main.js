@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // React interval
     let Reactinterval = setInterval(() => {
-      if (React >= 70) {
+      if (React >= 60) {
         clearInterval(interval);
       } else {
         React += 1;
